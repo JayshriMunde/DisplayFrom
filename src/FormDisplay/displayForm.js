@@ -18,18 +18,16 @@ const DisplayForm = () => {
         <div>
           First Name:
           <input
-            name="firstname"
             type="text"
-            value={Fname}
+            value={`${Fname}`}
             required
             onChange={(e) => setFirstName(e.target.value)}
           />
           <br />
           Last Name:
           <input
-            name="lastname"
             type="text"
-            value={Lname}
+            value={`${Lname}`}
             required
             onChange={(e) => setLastName(e.target.value)}
           />
